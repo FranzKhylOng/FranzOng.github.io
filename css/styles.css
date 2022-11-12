@@ -66,19 +66,19 @@ h3{
 -----------------------------------*/
 header {
     background: #111111;
-    color: #F7FFF7;
+    color: #fff;
 
 }
 /* Courses/Certification
 -----------------------------------*/
 .courses{
-    background: #F7FFF7;
+    background: #ffffff;
 }
 .courses a{
     color: #111111;
 }
 .courses .btn{
-    color: #F7FFF7;
+    color: #ffffff;
     background: #111111;
     text-decoration: none; /*removes underline*/
     padding: 8px;
@@ -87,7 +87,17 @@ header {
 }
 
 .courses .btn:hover{
-    background: rgb(0,17,17,80%); /*used rgb to be able to modify opacity in 4th argument*/
+    background: rgba(255, 255, 255, 1); /*used rgb to be able to modify opacity in 4th argument*/
+}
+.item-details a{
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 #F7FFF7;
+}
+
+.item-details a:hover{
+    box-shadow: inset 158px 0 0 0 #F7FFF7;
+    cursor: pointer;
+    color: #111111;
 }
 
 
@@ -98,7 +108,7 @@ header {
 }
 
 .work-experience a, .work-experience{
-    color: #F7FFF7;
+    color: #ffffff;
 }
 
 
@@ -106,7 +116,7 @@ header {
 /* Education
 -----------------------------------*/
 .education{
-    background: #F7FFF7;
+    background: #ffffff;
     padding-bottom: 80px;
 }
 
@@ -117,17 +127,23 @@ header {
 -----------------------------------*/ 
 footer{
     background: #111111 ;
-    color: #F7FFF7;
+    color: #ffffff;
 }
 
 footer a{
-    color: #F7FFF7;
+    color: #ffffff;
 }
 
 footer h2 {
     font-size: 65px;
 }
 
+
+.contact-list a .btntxt {
+    position: relative;
+    z-index: 10; /*makes sure the icones dont get covered by the gradient*/
+    transition: color 0.5s;
+}
 
 
 .contact-list {
@@ -141,7 +157,7 @@ footer h2 {
     display: inline-block; /*links are inline elements and we want them to adjust vertically and horizontally*/
     font-size: 35px; /*adjusts icon size*/
     color: #111111;
-    background-color: #F7FFF7;
+    background-color: #fff;
     margin: 0 30px; /*in between spacing*/
     border-radius: 50%;
     position: relative;
@@ -171,7 +187,7 @@ footer h2 {
 }
 
 .contact-list a:hover .fa-brands, .contact-list a:hover .fa-solid{
-    color: #F7FFF7;
+    color: #fff;
 }
 
 .contact-list a:hover{
@@ -199,7 +215,7 @@ footer h2 {
     }
 }
 
-.contact-list:nth-child(2){
+.btn{
     transition-delay: 200ms;
 }
 
