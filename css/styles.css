@@ -219,7 +219,7 @@ footer h2 {
 
     .job-item{ /*grid container*/
         display: grid;
-        grid-template-columns: 2fr 3fr;
+        grid-template-columns: 3fr 3fr;
     }
     .contact-list{
         display: flex;
