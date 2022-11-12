@@ -110,9 +110,7 @@ header {
 /* Education
 -----------------------------------*/
 .education{
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
-    background-size: cover; /*fits the image in the div*/
-    background-position: top right; /*makes sure the pencils on the top right show no matter what we resize the site as*/
+    background: #F7FFF7;
     padding-bottom: 80px;
 }
 
