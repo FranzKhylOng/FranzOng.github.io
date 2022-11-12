@@ -102,7 +102,11 @@ header {
 /* Work Experience
 -----------------------------------*/
 .work-experience{
-    background: #A1C6D7;
+    background: #111111;
+}
+
+.work-experience a, .work-experience{
+    color: #F7FFF7;
 }
 
 
