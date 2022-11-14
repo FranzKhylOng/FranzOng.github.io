@@ -67,7 +67,30 @@ h3{
 header {
     background: #111111;
     color: #fff;
+}
 
+
+
+.profilepic{
+    border-radius: 50%;
+    background: #fff;
+
+
+}
+
+.profile-box h1{
+    font-size:65px;
+    text-align: center;
+}
+
+.profile-box h2{
+    margin: 0%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.profile-box p{
+    text-align: justify;
 }
 /* Courses/Certification
 -----------------------------------*/
@@ -112,7 +135,9 @@ header {
     color: #fff;
     background: rgb(1, 1, 1);
 }
-
+.btn{
+    cursor: pointer;
+}
 
 /* Work Experience
 -----------------------------------*/
@@ -253,6 +278,11 @@ footer h2 {
     .contact-list{
         display: flex;
         justify-content:center;
+    }
+    .profile-box{ /*grid container*/
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 55px;
     }
 }
 
