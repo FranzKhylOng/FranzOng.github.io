@@ -42,7 +42,7 @@ h1,h2{
 }
 h3{
     margin-bottom: 0;
-    color: #7453DE;
+    color: #3C3B3B;
     font-size: 30px;
 }
 p{
@@ -108,7 +108,7 @@ header {
     margin: 0%;
     font-size: 60px;
     text-align: center;
-    color:  #7453DE     ;
+    color:  #343434     ;
 }
 .profile-box p{
     font-size: 30px;
@@ -120,11 +120,12 @@ header {
 /* Courses/Certification
 -----------------------------------*/
 .courses a{
-    color: #111111;
+    color: #7453DE;
+    font-weight: 500;
 }
 .courses .btn{
     color: #F8F9FF;
-    background: #4120A9;
+    background: #7453DE;
     text-decoration: none; /*removes underline*/
     padding: 8px;
     border-radius: 4px; /*makes button round */
@@ -135,20 +136,24 @@ header {
     background: rgba(255, 255, 255, 1); /*used rgb to be able to modify opacity in 4th argument*/
 }
 .item-details a{
+    color: #7453DE;
     transition: ease-out 0.3s;
-    box-shadow: inset 0 0 0 0 #ffffff;
+    box-shadow: inset 0 0 0 0 #7453DE;
+    font-weight: 500;
 }
 
 .item-details a:hover{
-    box-shadow: inset 158px 0 0 0 #ffffff;
+    box-shadow: inset 250px 0 0 0 #4120A9;
     cursor: pointer;
-    color: #111111;
     background: rgba(255, 255, 255, 1);
 }
 
 .wlink{
+    color: #7453DE;
     transition: ease-out 0.3s;
     box-shadow: inset 0 0 0 0 #7453DE;
+    font-weight: 500;
+    clear: none;
 }
 
 .wlink:hover{
@@ -177,10 +182,6 @@ header {
     font-size: 60px;
 }
 
-.education h3{
-    color: #7453DE;
-    font-size: 25px;
-}
 .education p{
     width: 60%;
     color: #3C3B3B;
@@ -193,8 +194,9 @@ header {
 -----------------------------------*/ 
 
 footer h2 {
-    font-size: 50px;
+    font-size: 60px;
     padding-bottom: 10px;
+    color: #343434  ;
 }
 
 
@@ -215,7 +217,7 @@ footer h2 {
     padding: 15px 25px; /*makes it more accessible as there is now more area to click on the links, is the visible white circle*/
     display: inline-block; /*links are inline elements and we want them to adjust vertically and horizontally*/
     font-size: 35px; /*adjusts icon size*/
-    background-color: #4120A9;
+    background-color: #7453DE;
     color: #F8F9FF;
     margin: 0 30px; /*in between spacing*/
     border-radius: 50%;
@@ -236,7 +238,7 @@ footer h2 {
     height: 100%;
     top: -90px;
     left: 0;
-    background: linear-gradient(-45deg, #ed1c94, #ffec17);
+    background: #4120A9;
     position: absolute;
     transition: 0.5s;
 }
