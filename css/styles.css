@@ -92,9 +92,9 @@ header {
 
 .profilepic{
     position: relative;
-    top: 40px;
+    top: 10px;
     border-radius: 50%;;
-    width: 400px; 
+    width: 500px; 
 }
 
 .profile-box h1{
@@ -323,11 +323,26 @@ body ul li{
         grid-template-columns: 3fr 5fr;
         place-items: center;
     }
+    .profilepic{
+        position: relative;
+        top: 10px;
+        border-radius: 50%;;
+        width: 500px; 
+    }
 }
 
 @media screen and (max-width:749px){
     h2,h1{
         line-height: 1.2;
+    }
+    header p{
+        text-align: center;
+    }
+    .profilepic{
+        position: relative;
+        top: 10px;
+        border-radius: 50%;;
+        width: 300px; 
     }
 
     .contact-list a{
