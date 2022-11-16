@@ -188,7 +188,11 @@ header {
 }
 
 .education ul li{
-    margin-top: 20px;
+    margin-top: 110px;
+}
+
+.education #adu{
+    margin-top: 60px;
 }
 /* Contact Info
 -----------------------------------*/ 
